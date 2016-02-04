@@ -1,0 +1,125 @@
+2016/02/04 23:14:08 [error] [php] Undefined variable:  (/Applications/MAMP/htdocs/inlux.local/frontend/protected/modules/admin/views/inlux/pages_list.php:66)
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(869): InluxController->renderFile()
+#1 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(782): InluxController->renderPartial()
+#2 /Applications/MAMP/htdocs/inlux.local/frontend/protected/modules/admin/controllers/InluxController.php(567): InluxController->render()
+#3 /Applications/MAMP/htdocs/inlux.local/framework/web/actions/CInlineAction.php(49): InluxController->actionPagesList()
+#4 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(286): InluxController->runAction()
+#6 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(265): InluxController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(282): InluxController->run()
+#8 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/inlux.local/index.php(7): CWebApplication->run()
+REQUEST_URI=/admin/inlux/pageslist
+2016/02/04 23:18:44 [error] [php] Undefined variable: prefix_special (/Applications/MAMP/htdocs/inlux.local/frontend/protected/modules/admin/views/inlux/contacts_list.php:35)
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(869): InluxController->renderFile()
+#1 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(782): InluxController->renderPartial()
+#2 /Applications/MAMP/htdocs/inlux.local/frontend/protected/modules/admin/controllers/InluxController.php(778): InluxController->render()
+#3 /Applications/MAMP/htdocs/inlux.local/framework/web/actions/CInlineAction.php(49): InluxController->actionContacts()
+#4 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(286): InluxController->runAction()
+#6 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(265): InluxController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(282): InluxController->run()
+#8 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/inlux.local/index.php(7): CWebApplication->run()
+REQUEST_URI=/admin/inlux/contacts
+2016/02/04 23:24:57 [error] [php] Undefined variable: item (/Applications/MAMP/htdocs/inlux.local/frontend/protected/modules/admin/views/inlux/contacts_form.php:18)
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(869): InluxController->renderFile()
+#1 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(782): InluxController->renderPartial()
+#2 /Applications/MAMP/htdocs/inlux.local/frontend/protected/modules/admin/controllers/InluxController.php(792): InluxController->render()
+#3 /Applications/MAMP/htdocs/inlux.local/framework/web/actions/CInlineAction.php(49): InluxController->actionConCreate()
+#4 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(286): InluxController->runAction()
+#6 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(265): InluxController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(282): InluxController->run()
+#8 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/inlux.local/index.php(7): CWebApplication->run()
+REQUEST_URI=/admin/inlux/concreate
+2016/02/04 23:25:08 [error] [php] Undefined variable: item (/Applications/MAMP/htdocs/inlux.local/frontend/protected/modules/admin/views/inlux/contacts_form.php:18)
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(869): InluxController->renderFile()
+#1 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(782): InluxController->renderPartial()
+#2 /Applications/MAMP/htdocs/inlux.local/frontend/protected/modules/admin/controllers/InluxController.php(792): InluxController->render()
+#3 /Applications/MAMP/htdocs/inlux.local/framework/web/actions/CInlineAction.php(49): InluxController->actionConCreate()
+#4 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(286): InluxController->runAction()
+#6 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(265): InluxController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(282): InluxController->run()
+#8 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/inlux.local/index.php(7): CWebApplication->run()
+REQUEST_URI=/admin/inlux/concreate
+2016/02/04 23:25:14 [error] [php] Undefined variable: item (/Applications/MAMP/htdocs/inlux.local/frontend/protected/modules/admin/views/inlux/contacts_form.php:18)
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(869): InluxController->renderFile()
+#1 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(782): InluxController->renderPartial()
+#2 /Applications/MAMP/htdocs/inlux.local/frontend/protected/modules/admin/controllers/InluxController.php(792): InluxController->render()
+#3 /Applications/MAMP/htdocs/inlux.local/framework/web/actions/CInlineAction.php(49): InluxController->actionConCreate()
+#4 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(286): InluxController->runAction()
+#6 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(265): InluxController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(282): InluxController->run()
+#8 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/inlux.local/index.php(7): CWebApplication->run()
+REQUEST_URI=/admin/inlux/concreate/ru
+2016/02/04 23:26:15 [error] [php] Undefined variable: item (/Applications/MAMP/htdocs/inlux.local/frontend/protected/modules/admin/views/inlux/contacts_form.php:18)
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(869): InluxController->renderFile()
+#1 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(782): InluxController->renderPartial()
+#2 /Applications/MAMP/htdocs/inlux.local/frontend/protected/modules/admin/controllers/InluxController.php(792): InluxController->render()
+#3 /Applications/MAMP/htdocs/inlux.local/framework/web/actions/CInlineAction.php(49): InluxController->actionConCreate()
+#4 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(286): InluxController->runAction()
+#6 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(265): InluxController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(282): InluxController->run()
+#8 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/inlux.local/index.php(7): CWebApplication->run()
+REQUEST_URI=/admin/inlux/concreate
+2016/02/04 23:33:46 [error] [php] Undefined variable: item (/Applications/MAMP/htdocs/inlux.local/frontend/protected/modules/admin/views/inlux/contacts_form.php:18)
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(869): InluxController->renderFile()
+#1 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(782): InluxController->renderPartial()
+#2 /Applications/MAMP/htdocs/inlux.local/frontend/protected/modules/admin/controllers/InluxController.php(792): InluxController->render()
+#3 /Applications/MAMP/htdocs/inlux.local/framework/web/actions/CInlineAction.php(49): InluxController->actionConCreate()
+#4 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(286): InluxController->runAction()
+#6 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(265): InluxController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(282): InluxController->run()
+#8 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/inlux.local/index.php(7): CWebApplication->run()
+REQUEST_URI=/admin/inlux/concreate
+2016/02/04 23:51:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/inner_page.css".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('css/inner_page....')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/inner_page.css
+HTTP_REFERER=http://inlux.local/
+---
+2016/02/04 23:51:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/tipo_pepel_-_boxedmedium.woff".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('font/tipo_pepel...')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/tipo_pepel_-_boxedmedium.woff
+HTTP_REFERER=http://inlux.local/css/style.css
+---
+2016/02/04 23:51:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/tipo_pepel_-_boxedmedium.ttf".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('font/tipo_pepel...')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/tipo_pepel_-_boxedmedium.ttf
+HTTP_REFERER=http://inlux.local/css/style.css
+---

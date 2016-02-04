@@ -1,0 +1,577 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 13px;
+}
+body
+{
+    /*position: relative;*/
+    background-color: #f1f3f5;
+    background-image: url("../../img/admin/line_back.png");
+    background-position: center top;
+    background-repeat: repeat-x;
+
+}
+
+.clearFix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearFix {
+    display: inline-block;
+}
+
+html[xmlns] .clearFix {
+    display: block;
+}
+
+* html .clearFix {
+    height: 1%;
+}
+
+.abs-menu
+{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #23242c;
+    z-index: 999;
+}
+.logo-part
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-bottom: 1px solid #1f2028;
+}
+.logo-link
+{
+    width: 200px;
+    height: 200px;
+    display: block;
+    /*background: url('../../img/admin/logo.png') center center;*/
+    background: url("../../img/inlux_logo_200x200.png") center center;
+    background-repeat: no-repeat;
+}
+.menu-ul
+{
+    display: block;
+    width: 200px;
+    list-style: none;
+}
+
+.menu-ul li
+{
+    display: block;
+    /*width: 200px;*/
+    height: 58px;
+    border-top: 1px solid #393a42;
+    border-bottom: 1px solid #1c1d23;
+    position: relative;
+}
+.menu-ul li a
+{
+    padding-left: 60px;
+    display: block;
+    /*width: 200px;*/
+    height: 58px;
+    line-height: 58px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu-ul li:hover
+{
+    border-top: 1px solid #65B1D4 !important;
+    background-color: #008DD0;
+}
+.menu-ul li a:hover
+{
+    background: url("../../img/admin/grad_vertical.png") right center;
+    background-repeat: no-repeat;
+}
+
+
+.active-li-menu
+{
+    border-top: 1px solid #65B1D4 !important;
+    background-color: #008DD0;
+}
+.active-li-menu > a
+{
+    background: url("../../img/admin/grad_vertical.png") right center;
+    background-repeat: no-repeat;
+}
+
+/*I C O N S*/
+
+.button_ico_main
+{
+    background-image: url("../../img/admin/icons/main.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.button_ico_rates
+{
+    background-image: url("../../img/admin/icons/dinamic.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.button_ico_where_to
+{
+    background: url("../../img/admin/icons/porf.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.button_ico_balance
+{
+    background: url("../../img/admin/icons/eye.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.button_ico_support
+{
+    background: url("../../img/admin/icons/compas.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.button_ico_sales
+{
+    background: url("../../img/admin/icons/hreni.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.count-label
+{
+    color: white;
+    font-family: Arial;
+    font-size: 11px;
+    background: url('../../img/admin/count_place.png') center center;
+    background-repeat: no-repeat;
+    float: right;
+    width: 33px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+.main-wrapper
+{
+    min-height: 400px;
+    padding-left: 200px;
+}
+.top-menu
+{
+    min-width: 1024px;
+    height: 99px;
+    position: relative;
+    z-index: 99;
+    /*background-color: red;*/
+}
+.path-line
+{
+    height: 39px;
+    line-height: 39px;
+    padding-left: 40px;
+    /*background-color: #f1f3f5;*/
+    border-bottom: 1px solid #d8dadc;
+}
+
+.path-element
+{
+    display: block;
+    font-size: 12px;
+    color: #7c7784;
+    font-style: italic;
+
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    padding-right: 20px;
+    margin-right: 10px;
+
+    text-decoration: none;
+
+    background: url("../../img/admin/arrow_right.png") right center;
+    background-repeat: no-repeat;
+}
+
+.path-element-last
+{
+    float: left;
+
+    display: block;
+    font-size: 12px;
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    background-color: #7c7784;
+    border-radius: 15px;
+}
+
+
+.button-line
+{
+    height: 60px;
+}
+
+.button-element
+{
+    display: block;
+    float: left;
+    border-right: 1px solid #d4d6d8;
+    min-width: 100px;
+    padding-top: 35px;
+    height: 25px;
+    text-decoration: none;
+    color: #7c7784;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+.button-element:hover
+{
+    box-shadow:inset 0px 0px 30px 0px #e1ece0;
+}
+
+.button-element-sub
+{
+    display: block;
+    float: left;
+
+    border-bottom: 1px solid #d4d6d8;
+    box-shadow:inset 0px 0px 10px 0px #d4d6d8;
+
+    min-width: 100px;
+    /*padding-top: 35px;*/
+    height: 25px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #7c7784;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #eeeeee !important;
+}
+
+.button-element-sub:hover
+{
+    background-color: #e1ece0 !important;
+}
+
+
+/*B U T T O N S  I C O N S*/
+
+.edit-icon
+{
+    background: url("../../img/admin/icons_button/pen.png") center center;
+    background-repeat: no-repeat;
+}
+.settings-icon
+{
+    background: url("../../img/admin/icons_button/mach.png") center center;
+    background-repeat: no-repeat;
+}
+.info-icon
+{
+    background: url("../../img/admin/icons_button/voskle.png") center center;
+    background-repeat: no-repeat;
+}
+.lnk-icon
+{
+    background: url("../../img/admin/icons_button/chain.png") center center;
+    background-repeat: no-repeat;
+}
+.bin-icon
+{
+    background: url("../../img/admin/icons_button/bin.png") center center;
+    background-repeat: no-repeat;
+}
+
+
+
+.content-block
+{
+    width: 700px;
+    min-height: 360px;
+    /*background-color: white;*/
+    margin: 40px;
+    z-index: 2;
+    position: absolute;
+}
+.block-header
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    /*width: 658px;*/
+    height: 38px;
+    border : 1px solid #d8d8d8;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+    font-size: 17px;
+    color: #535353;
+}
+.close-button
+{
+    width: 19px;
+    height: 19px;
+    display: block;
+    background: url("../../img/admin/close.png") center center;
+    background-repeat: no-repeat;
+    float: right;
+}
+.block-container
+{
+    padding: 20px;
+    /*width: 658px;*/
+    min-height: 279px;
+    background-color: #fafafa;
+    border : 1px solid #d8d8d8;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.left-part
+{
+    float: left;
+    width: 200px;
+    height: 250px;
+}
+.right-part
+{
+    float: left;
+    margin-left: 20px;
+    width: 438px;
+    height: 250px;
+}
+.image-box
+{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.file-input
+{
+    display: block;
+}
+.under-image
+{
+    height: 30px;
+    padding-top: 20px;
+    width: 200px;
+}
+.under-form
+{
+    height: 30px;
+    width: 438px;
+}
+
+.pic-button
+{
+    display: block;
+    text-decoration: none;
+    min-width: 40px;
+    height: 30px;
+}
+.pic-button > .left-p
+{
+    width: 15px;
+    height: 30px;
+    float: left;
+    background: url('../../img/admin/button_left_part.png') left center;
+    background-repeat: no-repeat;
+}
+.pic-button > .central-p
+{
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 11px;
+    color: #535353;
+    background: url('../../img/admin/button_central_part.png') center center;
+    background-repeat: repeat-x;
+}
+
+.pic-button > .right-p
+{
+    width: 15px;
+    height: 30px;
+    float: left;
+    background: url('../../img/admin/button_right_part.png') left center;
+    background-repeat: no-repeat;
+}
+
+.button-red > .left-p
+{
+    background: url('../../img/admin/button_red_left_part.png') left center !important;
+    background-repeat: no-repeat !important;
+}
+.button-red > .central-p
+{
+    background: url('../../img/admin/button_red_central_part.png') center center !important;
+    background-repeat: repeat-x !important;
+    color: white;
+}
+.button-red > .right-p
+{
+    background: url('../../img/admin/button_red_right_part.png') left center !important;
+    background-repeat: no-repeat;
+}
+
+.float-left
+{
+    float: left;
+}
+.float-right
+{
+    float: right;
+}
+
+.input-main
+{
+    display: block;
+    padding: 10px;
+    min-width: 400px;
+    min-height: 18px;
+    border: 1px solid #d7dbde;
+    font-size: 13px;
+    color: #84888c;
+}
+.input-main:focus
+{
+    outline: none;
+}
+
+.select-box
+{
+    width: 422px;
+    height: 38px;
+    overflow: hidden;
+    display: block;
+    border: 1px solid #d7dbde;
+    background-color: white;
+}
+.select-box select
+{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: #84888c;
+}
+
+.line-inputs
+{
+    width: 438px;
+    min-height: 40px;
+    margin-bottom: 20px;
+}
+
+.text-area-440-80
+{
+    width: 400px;
+    height: 120px;
+    resize: none;
+}
+
+.bordered-bottom
+{
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.checkbox{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border: 1px solid #d7dbde;
+}
+.label-inputs
+{
+    color: #84888c;
+    font-size: 13px;
+    display: block;
+    height: 20px;
+    float: left;
+    padding-left: 10px;
+}
+
+.min-wid-90
+{
+    min-width: 90px !important;
+}
+
+.menu-list-in-top
+{
+    list-style: none;
+}
+.menu-list-in-top li
+{
+    float: left;
+    display: block;
+    width: 102px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.top-field-label
+{
+    font-size: 13px;
+    color: #84888c;
+    display: block;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+.field-container-long
+{
+    height: 40px;
+    margin-bottom: 10px;
+}
+.field-container-height
+{
+    min-height: 150px;
+    margin-bottom: 10px;
+}
+.hr
+{
+    height: 15px;
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 15px;
+}
+.right-box-mod
+{
+    width: 200px;
+    height: 38px;
+    overflow: hidden;
+    display: block;
+}
+.right-box-mod > input
+{
+    float: right;
+    height: 38px;
+}

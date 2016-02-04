@@ -1,0 +1,109 @@
+.tbl-cont-list tr td
+{
+    border-left: 1px solid #d7dbde;
+    border-top: 1px solid #d7dbde;
+}
+.tbl-cont-list tr td:last-child
+{
+    border-right: 1px solid #d7dbde;
+}
+.tbl-cont-list tr:last-child td
+{
+    border-bottom: 1px solid #d7dbde;
+}
+
+
+
+.header-table td
+{
+    font-weight: bold;
+    background-color: #f5f5f5 !important;
+}
+.header-table td:first-child
+{
+    border-left: 1px solid #d7dbde;
+    border-top: 1px solid #d7dbde;
+    border-top-left-radius: 5px;
+}
+.header-table td:last-child
+{
+    border-right: 1px solid #d7dbde;
+    border-top: 1px solid #d7dbde;
+    border-top-right-radius: 5px;
+}
+
+
+.tbl-cont-list
+{
+    width: 100%;
+}
+.tbl-cont-list tr > td:first-child
+{
+    width: 10%;
+}
+.tbl-cont-list tr > td:last-child
+{
+    width: 22%;
+}
+.tbl-cont-list td
+{
+    padding: 2px;
+    background-color: white;
+    color: #84888c;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.tbl-cont-list tr:last-child td:first-child
+{
+    border-bottom-left-radius: 5px;
+}
+
+.tbl-cont-list tr:last-child td:last-child
+{
+    border-bottom-right-radius: 5px;
+}
+
+
+.tbl-cont-list .button
+{
+    display: block;
+    float: left;
+    margin: 3px;
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+    font-size: 0;
+}
+
+.tbl-cont-list .hide-btn
+{
+    background: url("../../img/admin/icons_actions/light_on.png") center center no-repeat;
+}
+.tbl-cont-list .show-btn
+{
+    background: url("../../img/admin/icons_actions/light_off.png") center center no-repeat;
+}
+.tbl-cont-list .top-arrow
+{
+    background: url("../../img/admin/icons_actions/move_top.png") center center no-repeat;
+}
+.tbl-cont-list .bot-arrow
+{
+    background: url("../../img/admin/icons_actions/move_bottom.png") center center no-repeat;
+}
+.tbl-cont-list .delete-lnk
+{
+    background: url("../../img/admin/icons_actions/delete.png") center center no-repeat;
+}
+.tbl-cont-list .edit-lnk
+{
+    background: url("../../img/admin/icons_actions/settings.png") center center no-repeat;
+}
+
+
+
+
+
+
+
