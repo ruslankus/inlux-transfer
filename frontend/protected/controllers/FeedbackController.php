@@ -17,18 +17,22 @@ class FeedbackController extends Controller
         $contacts = LuxContactInfo::model()->findAll();
         if(count($contacts) > 0){$contact = $contacts[0];}else{$contact = new LuxContactInfo();}
 
-        $success = 0;
+        $success = false;
+
+
 
         if(filter_var($email,FILTER_VALIDATE_EMAIL))
         {
+
             $captcha = new DwCaptcha();
-            if(strlen($message) < 10 || !$captcha->CheckCaptcha($cap,$cap_id))
+
+
+            if(strlen($message) < 7 || !$captcha->CheckCaptcha($cap,$cap_id))
             {
-                $success = 0;
+                $success = false;
             }
-            if(strlen($message) > 10 && $captcha->CheckCaptcha($cap,$cap_id))
+            if(strlen($message) > 7 && $captcha->CheckCaptcha($cap,$cap_id))
             {
-                $success = 1;
 
                 $subject = $contact->getLngObject(Yii::app()->language)->feedback_subject;
                 $to = $contact->administrator_email;
@@ -40,11 +44,12 @@ class FeedbackController extends Controller
                 $headers[] = "From: ".$name." <".$email.">";
                 $headers[] = "Subject: {$subject}";
                 $headers[] = "X-Mailer: PHP/".phpversion();
-                mail($to, $subject, $message, implode("\r\n", $headers));
+                $success = mail($to, $subject, $message, implode("\r\n", $headers));
+
             }
         }
 
-        if($success == 1){
+        if($success){
             $this->redirect(UrlHelper::GetActionUrl('pages','index').'#contacts');
         }
         else{

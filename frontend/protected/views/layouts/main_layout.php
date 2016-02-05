@@ -116,7 +116,7 @@
 </div><!-- /big-block -->
 
 <div class="footer">
-    <p>&copy; 2014 Lookout, Inc.<br>Lookout and the Shield Logo are registered trademarks</p>
+    <p>&copy; <?=date('Y',time()) ?> Inlux<br> All right reserved</p>
 </div><!-- /footer -->
 
 </body>

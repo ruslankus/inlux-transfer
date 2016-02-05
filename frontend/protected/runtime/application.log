@@ -123,3 +123,159 @@ Stack trace:
 REQUEST_URI=/font/tipo_pepel_-_boxedmedium.ttf
 HTTP_REFERER=http://inlux.local/css/style.css
 ---
+2016/02/05 01:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/inner_page.css".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('css/inner_page....')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/inner_page.css
+HTTP_REFERER=http://inlux.local/
+---
+2016/02/05 01:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/tipo_pepel_-_boxedmedium.woff".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('font/tipo_pepel...')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/tipo_pepel_-_boxedmedium.woff
+HTTP_REFERER=http://inlux.local/css/style.css
+---
+2016/02/05 01:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/tipo_pepel_-_boxedmedium.ttf".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('font/tipo_pepel...')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/tipo_pepel_-_boxedmedium.ttf
+HTTP_REFERER=http://inlux.local/css/style.css
+---
+2016/02/05 01:58:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/inner_page.css".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('css/inner_page....')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/inner_page.css
+HTTP_REFERER=http://inlux.local/
+---
+2016/02/05 01:58:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/tipo_pepel_-_boxedmedium.woff".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('font/tipo_pepel...')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/tipo_pepel_-_boxedmedium.woff
+HTTP_REFERER=http://inlux.local/css/style.css
+---
+2016/02/05 01:58:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/tipo_pepel_-_boxedmedium.ttf".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('font/tipo_pepel...')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/tipo_pepel_-_boxedmedium.ttf
+HTTP_REFERER=http://inlux.local/css/style.css
+---
+2016/02/05 02:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/inner_page.css".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('css/inner_page....')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/inner_page.css
+HTTP_REFERER=http://inlux.local/en/pages/index/error/1
+---
+2016/02/05 02:31:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/inner_page.css".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('css/inner_page....')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/inner_page.css
+HTTP_REFERER=http://inlux.local/en/pages/index/error/1
+---
+2016/02/05 02:35:35 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inlux.local/frontend/protected/helpers/Debug.php:27) (/Applications/MAMP/htdocs/inlux.local/framework/web/CHttpRequest.php:803)
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/frontend/protected/controllers/FeedbackController.php(53): FeedbackController->redirect()
+#1 /Applications/MAMP/htdocs/inlux.local/framework/web/actions/CInlineAction.php(49): FeedbackController->actionSend()
+#2 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(286): FeedbackController->runAction()
+#4 /Applications/MAMP/htdocs/inlux.local/framework/web/CController.php(265): FeedbackController->runActionWithFilters()
+#5 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(282): FeedbackController->run()
+#6 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/MAMP/htdocs/inlux.local/index.php(7): CWebApplication->run()
+REQUEST_URI=/en/feedback/send
+2016/02/05 02:55:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/inner_page.css".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('css/inner_page....')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/inner_page.css
+HTTP_REFERER=http://inlux.local/en/pages/index/error/1
+---
+2016/02/05 02:55:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/tipo_pepel_-_boxedmedium.woff".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('font/tipo_pepel...')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/tipo_pepel_-_boxedmedium.woff
+HTTP_REFERER=http://inlux.local/css/style.css
+---
+2016/02/05 02:55:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/tipo_pepel_-_boxedmedium.ttf".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('font/tipo_pepel...')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/tipo_pepel_-_boxedmedium.ttf
+HTTP_REFERER=http://inlux.local/css/style.css
+---
+2016/02/05 03:02:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/inner_page.css".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('css/inner_page....')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/inner_page.css
+HTTP_REFERER=http://inlux.local/en/pages/index
+---
+2016/02/05 03:19:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/inner_page.css".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('css/inner_page....')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/inner_page.css
+HTTP_REFERER=http://inlux.local/
+---
+2016/02/05 03:19:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/tipo_pepel_-_boxedmedium.woff".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('font/tipo_pepel...')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/tipo_pepel_-_boxedmedium.woff
+HTTP_REFERER=http://inlux.local/css/style.css
+---
+2016/02/05 03:19:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font/tipo_pepel_-_boxedmedium.ttf".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('font/tipo_pepel...')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/font/tipo_pepel_-_boxedmedium.ttf
+HTTP_REFERER=http://inlux.local/css/style.css
+---
+2016/02/05 03:22:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/inner_page.css".' in /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/inlux.local/framework/web/CWebApplication.php(141): CWebApplication->runController('css/inner_page....')
+#1 /Applications/MAMP/htdocs/inlux.local/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/inlux.local/index.php(7): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/inner_page.css
+HTTP_REFERER=http://inlux.local/en/pages/index
+---
